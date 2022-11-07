@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#main-title{
+	font-family: 'Righteous', cursive;
+	color: #1E0E62;
+	font-size: 2.3rem;
+	text-align: center;
+}
+
+/*HEADER*/
+header{
+	width: auto;
+	height: 10vh;
+	background-color: lightgray;
+
+}
+
+#a1,#a2, a{
+	text-decoration: none;
+	color: black;
+}
+
+#a1{
+	margin-top: 1%;
+	float: left;
+	margin-left: 3%;
+	font-family: 'Mukta', sans-serif;
+	font-size: 1.5rem;
+	text-shadow: 2px 2px 5px blue;
+}
+
+#a2{
+	margin-top: 1%;
+	margin-right: 3%;
+	float: right;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 0.1%;
+	background-color: white;
+	font-family: 'Mukta', sans-serif;
+	box-shadow: 10px 10px 5px black;
+
+}
+
+/*introduccion*/
+.introduccion{
+	border: 1px solid red;
+	background-color: rgba(212, 228, 255, 1.0);
+	width: auto;
+	height: 70vh;
+	padding: 2%;
+	background-image: url(https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?w=2000);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text_art1{
+	width: 50vw;
+	border: 1px solid blue;
+	float: left;
+	position: relative;
+ 	left: 5%;
+	top: 12%;
+}
+
+#main-img{
+	display: block;
+	border-radius: 60%;
+	width: 70vh;
+	float: right;
+	margin-left: 5px;
+}
+
+#parrafos{
+	font-family: Verdana, Geneva, sans-serif;
+	 font-size: 1.3rem;
+	  font-style: normal;
+	   font-variant: normal;
+	    font-weight: 600;
+	     line-height: 26.4px; 
+}
+
+/*HABILIDADES*/
+
+.habilidades{
+	border: 1px solid green;
+	background-color: rgba(212, 228, 255, 1.0);
+	width: auto;
+	height: 70vh;
+	padding: 2%;
+	background-image: url(https://t3.ftcdn.net/jpg/01/67/59/48/360_F_167594893_dWtiBCm2kkQGeeIGcJSGKryKItZ8XAI1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#text_art2{
+	display: block;
+	width: 50vw;
+	position: relative;
+	top: 2%;
+	left: 20%;
+}
+
+.contenedor_habilidades{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.container{
+ 	padding: 20px;
+	text-align: center;
+	height:auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Ubuntu:wght@500&display=swap');
+
+#subtitle-title{
+	display: inline-block;
+	height: 90px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.8rem;
+	color: black;
+}
+
+#habilidades_parrafos{
+	font-family: 'Inter', sans-serif;
+	font-size: 1.2rem;
+	color: blue;
+}
+
+/*EXPERIENCIA*/
+.experiencia{
+	border: 1px solid green;
+	background-color: rgba(212, 228, 255, 1.0);
+	width: auto;
+	height: 70vh;
+	padding: 2%;
+	background-image: url(https://t3.ftcdn.net/jpg/01/67/59/48/360_F_167594893_dWtiBCm2kkQGeeIGcJSGKryKItZ8XAI1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
